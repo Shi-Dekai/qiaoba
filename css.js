@@ -1,5 +1,6 @@
-* {box-sizing: border-box; margin: 0; padding: 0;}
-
+const string = `
+<style>
+.skin * {box-sizing: border-box; margin: 0; padding: 0;}
 ul, ol {list-style: none;}
 
 .chopper-container {
@@ -516,5 +517,7 @@ ul, ol {list-style: none;}
     transform: scale(1.5, 0.1);
   }
 }
+</style>
+`
 
-/*# sourceMappingURL=/style.e308ff8e.css.map */
+export default string
